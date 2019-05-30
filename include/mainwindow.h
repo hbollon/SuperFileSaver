@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "include/mainlayout.h"
 
 namespace Ui {
 class MainWindow;
@@ -17,6 +18,8 @@ public:
 
 private:
     Ui::MainWindow *ui;
+    MainLayout *mainLayout;
+    QWidget *mainWidget;
 };
 
 #endif // MAINWINDOW_H

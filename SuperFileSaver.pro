@@ -26,10 +26,16 @@ CONFIG += c++11
 
 SOURCES += \
         src/main.cpp \
-        src/view/mainwindow.cpp
+        src/view/contentboxlayout.cpp \
+        src/view/mainlayout.cpp \
+        src/view/mainwindow.cpp \
+        src/view/menuboxlayout.cpp
 
 HEADERS += \
-        include/mainwindow.h \
+    include/contentboxlayout.h \
+    include/mainlayout.h \
+        include/mainwindow.h \ \
+    include/menuboxlayout.h
 
 FORMS += \
         ui/mainwindow.ui
