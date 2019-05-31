@@ -1,7 +1,13 @@
 #include "include/mainlayout.h"
 
-MainLayout::MainLayout() : QGridLayout()
+MainLayout::MainLayout() : QHBoxLayout()
 {
     menu = new MenuBoxLayout();
-    this->addLayout(menu, 1, 1);
+    content = new ContentBoxLayout();
+    layoutDispose = new BorderLayout(50);
+
+    layoutDispose->add(menu, BorderLayout::West);
+    layoutDispose->add(content, BorderLayout::Center);
+
+    this->addLayout(layoutDispose);
 }

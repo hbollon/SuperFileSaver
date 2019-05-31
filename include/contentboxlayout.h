@@ -2,6 +2,7 @@
 #define CONTENTBOXLAYOUT_H
 
 #include <QBoxLayout>
+#include <QPushButton>
 
 class ContentBoxLayout : public QVBoxLayout
 {

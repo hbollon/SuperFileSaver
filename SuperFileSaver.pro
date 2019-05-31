@@ -26,12 +26,14 @@ CONFIG += c++11
 
 SOURCES += \
         src/main.cpp \
+        src/view/borderlayout.cpp \
         src/view/contentboxlayout.cpp \
         src/view/mainlayout.cpp \
         src/view/mainwindow.cpp \
         src/view/menuboxlayout.cpp
 
 HEADERS += \
+    include/borderlayout.h \
     include/contentboxlayout.h \
     include/mainlayout.h \
         include/mainwindow.h \ \
