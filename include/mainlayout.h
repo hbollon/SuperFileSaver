@@ -3,6 +3,7 @@
 
 #include <QBoxLayout>
 #include <QTextBrowser>
+#include <QWidget>
 #include "include/borderlayout.h"
 #include "include/contentboxlayout.h"
 #include "include/menuboxlayout.h"
@@ -15,7 +16,6 @@ class MainLayout : public QHBoxLayout
         BorderLayout *layoutDispose;
         MenuBoxLayout *menu;
         ContentBoxLayout *content;
-
 };
 
 #endif // MAINLAYOUT_H

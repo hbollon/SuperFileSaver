@@ -3,6 +3,9 @@
 
 #include <QBoxLayout>
 #include <QPushButton>
+#include <QColor>
+#include <QWidget>
+#include <QGroupBox>
 
 class MenuBoxLayout : public QVBoxLayout
 {
@@ -13,6 +16,8 @@ class MenuBoxLayout : public QVBoxLayout
         QPushButton *buttonRestore;
         QPushButton *buttonExtras;
         QPushButton *buttonsSettings;
+        QGroupBox *container;
+
 };
 
 #endif // MENUBOXLAYOUT_H
