@@ -26,6 +26,7 @@ CONFIG += c++11
 
 SOURCES += \
         src/main.cpp \
+        src/model/FilesPath.cpp \
         src/view/borderlayout.cpp \
         src/view/contentboxlayout.cpp \
         src/view/mainlayout.cpp \
@@ -37,7 +38,9 @@ HEADERS += \
     include/contentboxlayout.h \
     include/mainlayout.h \
         include/mainwindow.h \ \
-    include/menuboxlayout.h
+    include/menuboxlayout.h \
+    include/model/FilesPath.h \
+    include/model/Saver.h
 
 FORMS += \
         ui/mainwindow.ui
